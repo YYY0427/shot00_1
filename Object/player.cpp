@@ -79,7 +79,7 @@ void Player::update()
 		//m_pMain‚ª‰Šú‰»‚Ìó‘Ô‚Å‚Í‚È‚­‚È‚É‚©‚µ‚ç‚ÌƒAƒhƒŒƒX‚ª“ü‚Á‚Ä‚¢‚éê‡
 		if (m_pMain && (m_shotInterval <= 0))
 		{
-			m_pMain->createShot(m_pos);
+			m_pMain->createShot(m_pos, true);
 			m_shotInterval = kShotInterval;
 		}
 	}
